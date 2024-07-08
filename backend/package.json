@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles",
+    "dev": "nodemon index.js --exec babel-node -e js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@supabase/supabase-js": "^2.39.3",
+    "all": "^0.0.0",
+    "base64-arraybuffer": "^1.0.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "emailjs": "^4.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "jest": "^29.7.0",
+    "morgan": "^1.10.0",
+    "mssql": "^10.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.5",
+    "supertest": "^6.3.4",
+    "ws": "^8.16.0"
+  }
+}

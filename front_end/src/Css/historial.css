@@ -1,0 +1,50 @@
+.multalist {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.botonmulta {
+    float: right;
+}
+
+.detalles-form {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.detalles-form.mostrar {
+    opacity: 1;
+}
+
+
+.total-multas-count {
+    font-size: 35px; /* Tamaño del texto del total de multas */
+    font-weight: bold; /* Fuente en negrita para resaltar */
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 15px;
+}
+
+.total-multas-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+.icono-multas {
+    font-size: 24px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.formulario-oculto {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.formulario-visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+}

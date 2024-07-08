@@ -1,0 +1,53 @@
+.reloj-item {
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.reloggg{
+    margin-bottom: 50px;
+}
+
+.reloj-item > div {
+    margin: -10px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151615;
+    box-shadow: 0px 0px 6px 2px  #a1a1a1 inset ;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+.map{
+    height: 200px;
+}
+.reloj-item p {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.horas,
+.minutos,
+.segundos {
+    background-color: #f8f9fc;
+    border: 1px solid #d1d3e2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 40px;
+    text-align: center;
+}
+
+

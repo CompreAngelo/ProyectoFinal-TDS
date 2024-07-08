@@ -1,0 +1,26 @@
+
+.u-section-1 .u-image-1 {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.u-section-1-link {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 5px auto 0px;
+    padding: 10px 20px; 
+    text-align: center; /* Para centrar el enlace */
+    
+    
+}
+.u-palette-1-light-2{
+    color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
+}
+
+

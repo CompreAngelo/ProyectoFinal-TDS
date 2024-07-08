@@ -1,0 +1,49 @@
+
+#multas {
+  margin-top: 30px;
+}
+#inputCedulaUsuario {
+  margin-left: 22px;
+}
+#inputNombreUsuario {
+  margin-left: 14px;
+}
+#inputTelefonoUsuario {
+  margin-left: 10px;
+}
+#inputCorreoUsuario {
+  margin-left: 24px;
+}
+#descripcionIncidente,
+#fechaIncidente,
+#nombreAgente {
+  margin-bottom: 15px;
+}
+select {
+  width: 100px;
+  margin-left: 11px;
+}
+.p-5 {
+  margin: 0 auto;
+}
+#datosUsuario {
+  margin-top: 15px;
+}
+#editarDatos {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.row.justify-content-start {
+  display: flex;
+  flex-wrap: wrap; /* Para que los elementos se envuelvan si no caben en una sola línea */
+}
+.fotoper {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.fotocar {
+  margin-left: 60px; /* Modificado para ajustar el espacio entre las imágenes */
+  margin-top: 20px;
+}
